@@ -309,6 +309,7 @@ function getStatusBadge($status) {
     }
 }
 
+
 // Format bytes to human readable format
 function formatBytes($bytes, $precision = 2) {
     $units = ['B', 'KB', 'MB', 'GB', 'TB'];
