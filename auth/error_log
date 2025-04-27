@@ -1,0 +1,14 @@
+[27-Apr-2025 14:07:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home/voxelnodes/public_html/wavetest/includes/auth.php:101
+Stack trace:
+#0 /home/voxelnodes/public_html/wavetest/auth/login.php(26): loginUser('cgruber612@gmai...', 'LightingDesign6...', true)
+#1 {main}
+  thrown in /home/voxelnodes/public_html/wavetest/includes/auth.php on line 101
+[27-Apr-2025 14:12:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home/voxelnodes/public_html/wavetest/auth/register.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/voxelnodes/public_html/wavetest/auth/register.php on line 64
+[27-Apr-2025 14:34:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home/voxelnodes/public_html/wavetest/includes/auth.php:101
+Stack trace:
+#0 /home/voxelnodes/public_html/wavetest/auth/login.php(28): loginUser('cgruber612', 'LightingDesign6...', false)
+#1 {main}
+  thrown in /home/voxelnodes/public_html/wavetest/includes/auth.php on line 101

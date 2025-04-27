@@ -1,0 +1,426 @@
+/**
+ * WaveHost Main Stylesheet
+ * This is the central stylesheet for all pages across the WaveHost website
+ */
+
+/* Base Styles */
+body {
+    background-color: #0f1122;
+    color: #fff;
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    color: #0984e3;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0070c9;
+    text-decoration: underline;
+}
+
+/* Utility Classes */
+.bg-darker {
+    background-color: #0a0c1a;
+}
+
+.bg-primary-subtle {
+    background-color: rgba(13, 110, 253, 0.2);
+}
+
+.bg-success-subtle {
+    background-color: rgba(25, 135, 84, 0.2);
+}
+
+.bg-info-subtle {
+    background-color: rgba(13, 202, 240, 0.2);
+}
+
+.bg-warning-subtle {
+    background-color: rgba(255, 193, 7, 0.2);
+}
+
+.bg-danger-subtle {
+    background-color: rgba(220, 53, 69, 0.2);
+}
+
+.bg-secondary-subtle {
+    background-color: rgba(108, 117, 125, 0.2);
+}
+
+/* Card Styles */
+.card {
+    border: 1px solid #1e2133;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    background-color: #111827;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    border-bottom: 1px solid #1e2133;
+    padding: 1rem 1.25rem;
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+/* Table Styles */
+.table {
+    margin-bottom: 0;
+}
+
+.table-dark {
+    background-color: transparent;
+    color: #fff;
+}
+
+.table-dark thead th {
+    border-bottom: 1px solid #2c3154;
+    background-color: #0a0c1a;
+    color: #8a94a6;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.table-dark tbody td {
+    border-bottom: 1px solid #1e2133;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+.table-dark.table-hover tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Form Elements */
+.form-control, .form-select {
+    padding: 0.75rem 1rem;
+    background-color: #1f2937;
+    border: 1px solid #374151;
+    color: #fff;
+}
+
+.form-control:focus, .form-select:focus {
+    background-color: #1f2937;
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    color: #fff;
+}
+
+.form-control::placeholder {
+    color: #6c757d;
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.form-text {
+    color: #6c757d;
+}
+
+/* Button Styles */
+.btn {
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    border-radius: 0.25rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-primary {
+    background-color: #0984e3;
+    border-color: #0984e3;
+}
+
+.btn-primary:hover {
+    background-color: #0070c9;
+    border-color: #0070c9;
+}
+
+.btn-outline-primary {
+    color: #0984e3;
+    border-color: #0984e3;
+}
+
+.btn-outline-primary:hover {
+    background-color: #0984e3;
+    color: #fff;
+}
+
+.btn-success {
+    background-color: #20bf6b;
+    border-color: #20bf6b;
+}
+
+.btn-success:hover {
+    background-color: #1aa059;
+    border-color: #1aa059;
+}
+
+.btn-outline-secondary {
+    color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+/* Badges */
+.badge {
+    font-weight: 500;
+    padding: 0.5em 0.75em;
+}
+
+/* Progress Bars */
+.progress {
+    background-color: #1e2133;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 8px;
+}
+
+/* Alert Styles */
+.alert {
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.alert-info {
+    background-color: rgba(13, 202, 240, 0.1);
+    border-color: rgba(13, 202, 240, 0.2);
+    color: #e6f9fd;
+}
+
+.alert-danger {
+    background-color: rgba(220, 53, 69, 0.1);
+    border-color: rgba(220, 53, 69, 0.2);
+    color: #f5c2c7;
+}
+
+.alert-success {
+    background-color: rgba(25, 135, 84, 0.1);
+    border-color: rgba(25, 135, 84, 0.2);
+    color: #d1e7dd;
+}
+
+.alert-warning {
+    background-color: rgba(255, 193, 7, 0.1);
+    border-color: rgba(255, 193, 7, 0.2);
+    color: #fff3cd;
+}
+
+/* Icon Box */
+.icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}
+
+/* Accordion Styles */
+.accordion-item {
+    background-color: #111827;
+    border: 1px solid #1e2133;
+    margin-bottom: 0.5rem;
+}
+
+.accordion-button {
+    padding: 1rem 1.25rem;
+    font-weight: 500;
+    background-color: #0a0c1a;
+    color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #0d1327;
+    color: #fff;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: #1e2133;
+}
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+/* Range Slider */
+.form-range::-webkit-slider-thumb {
+    background: #0984e3;
+}
+
+.form-range::-moz-range-thumb {
+    background: #0984e3;
+}
+
+.form-range::-ms-thumb {
+    background: #0984e3;
+}
+
+/* Navigation */
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-dark {
+    background-color: #0a0c1a;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-nav .nav-link.active {
+    color: #0984e3;
+}
+
+/* Breadcrumbs */
+.breadcrumb {
+    background-color: transparent;
+    padding: 0.75rem 0;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: #6c757d;
+}
+
+.breadcrumb-item.active {
+    color: #6c757d;
+}
+
+/* Footer */
+.footer {
+    background-color: #0a0c1a;
+    padding: 3rem 0;
+    margin-top: 3rem;
+}
+
+.footer h5 {
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+}
+
+.footer ul {
+    padding-left: 0;
+}
+
+.footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer a {
+    color: #6c757d;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Auth Pages */
+.auth-page {
+    background-color: #fd5c4c;
+    background-image: url("https://auth.wavehost.org/media/public/flow-backgrounds/Macos_Wallpaper_3_Vr9sJLy.png")!important;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #111827;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    color: white;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* Page Loader */
+.page-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15, 17, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.loader-content {
+    text-align: center;
+}
+
+.spinner {
+    border: 10px solid rgba(255, 255, 255, 0.1);
+    border-top: 10px solid #0984e3;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 15px;
+}
+
+.loader-text {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.75rem;
+    }
+    
+    .card-title {
+        font-size: 1.25rem;
+    }
+}

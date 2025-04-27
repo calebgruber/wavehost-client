@@ -1,0 +1,72 @@
+[27-Apr-2025 14:08:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home/voxelnodes/public_html/wavetest/web-hosting.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/voxelnodes/public_html/wavetest/web-hosting.php on line 15
+[27-Apr-2025 14:09:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home/voxelnodes/public_html/wavetest/web-hosting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/voxelnodes/public_html/wavetest/web-hosting.php on line 17
+[27-Apr-2025 14:09:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home/voxelnodes/public_html/wavetest/vps-hosting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/voxelnodes/public_html/wavetest/vps-hosting.php on line 17
+[27-Apr-2025 14:13:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home/voxelnodes/public_html/wavetest/web-hosting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/voxelnodes/public_html/wavetest/web-hosting.php on line 17
+[27-Apr-2025 14:14:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home/voxelnodes/public_html/wavetest/blog.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/voxelnodes/public_html/wavetest/blog.php on line 28
+[27-Apr-2025 14:16:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home/voxelnodes/public_html/wavetest/game-server.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/voxelnodes/public_html/wavetest/game-server.php on line 17
+[27-Apr-2025 14:23:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home/voxelnodes/public_html/wavetest/web-hosting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/voxelnodes/public_html/wavetest/web-hosting.php on line 17
+[27-Apr-2025 14:23:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home/voxelnodes/public_html/wavetest/vps-hosting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/voxelnodes/public_html/wavetest/vps-hosting.php on line 17
+[27-Apr-2025 14:23:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home/voxelnodes/public_html/wavetest/blog.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/voxelnodes/public_html/wavetest/blog.php on line 28
+[27-Apr-2025 14:23:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home/voxelnodes/public_html/wavetest/support.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/voxelnodes/public_html/wavetest/support.php on line 15
+[27-Apr-2025 14:25:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home/voxelnodes/public_html/wavetest/web-hosting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/voxelnodes/public_html/wavetest/web-hosting.php on line 17
+[27-Apr-2025 14:25:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home/voxelnodes/public_html/wavetest/vps-hosting.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/voxelnodes/public_html/wavetest/vps-hosting.php on line 17
+[27-Apr-2025 14:25:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home/voxelnodes/public_html/wavetest/support.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/voxelnodes/public_html/wavetest/support.php on line 15
+[27-Apr-2025 14:29:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home/voxelnodes/public_html/wavetest/game-server.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/voxelnodes/public_html/wavetest/game-server.php on line 15
+[27-Apr-2025 14:29:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home/voxelnodes/public_html/wavetest/game-server.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/voxelnodes/public_html/wavetest/game-server.php on line 15
+[27-Apr-2025 14:51:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home/voxelnodes/public_html/wavetest/game-server.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/voxelnodes/public_html/wavetest/game-server.php on line 15
+[27-Apr-2025 14:51:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home/voxelnodes/public_html/wavetest/vps-hosting.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/voxelnodes/public_html/wavetest/vps-hosting.php on line 16
+[27-Apr-2025 14:51:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db() in /home/voxelnodes/public_html/wavetest/blog.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/voxelnodes/public_html/wavetest/blog.php on line 28
